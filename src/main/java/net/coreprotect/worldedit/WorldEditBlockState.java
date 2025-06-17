@@ -162,6 +162,9 @@ public final class WorldEditBlockState implements BlockState {
     }
 
     @Override
+    public boolean isSuffocating() { return false; }
+
+    @Override
     public boolean isPlaced() {
         return false;
     }
